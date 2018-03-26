@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TextAdventureNodes;
 
 namespace App_Prototype
 {
@@ -15,6 +16,11 @@ namespace App_Prototype
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            ngGraph.AddNode(new Node("Node 1"));
         }
     }
 }
