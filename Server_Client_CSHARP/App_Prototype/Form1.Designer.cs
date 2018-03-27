@@ -1,6 +1,6 @@
 ﻿namespace App_Prototype
 {
-    partial class Form1
+    partial class frmApplication
     {
         /// <summary>
         /// Required designer variable.
@@ -49,9 +49,9 @@
             this.groupBox1.Controls.Add(this.btnEditNode);
             this.groupBox1.Controls.Add(this.btnNewNode);
             this.groupBox1.Location = new System.Drawing.Point(10, 344);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(130, 58);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
@@ -60,7 +60,7 @@
             // btnEditNode
             // 
             this.btnEditNode.Location = new System.Drawing.Point(67, 18);
-            this.btnEditNode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEditNode.Margin = new System.Windows.Forms.Padding(2);
             this.btnEditNode.Name = "btnEditNode";
             this.btnEditNode.Size = new System.Drawing.Size(56, 28);
             this.btnEditNode.TabIndex = 1;
@@ -70,7 +70,7 @@
             // btnNewNode
             // 
             this.btnNewNode.Location = new System.Drawing.Point(5, 18);
-            this.btnNewNode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNewNode.Margin = new System.Windows.Forms.Padding(2);
             this.btnNewNode.Name = "btnNewNode";
             this.btnNewNode.Size = new System.Drawing.Size(56, 28);
             this.btnNewNode.TabIndex = 0;
@@ -87,9 +87,9 @@
             this.groupBox2.Controls.Add(this.txtIP);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Location = new System.Drawing.Point(146, 344);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(585, 57);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
@@ -98,7 +98,7 @@
             // txtServerStatus
             // 
             this.txtServerStatus.Location = new System.Drawing.Point(351, 18);
-            this.txtServerStatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtServerStatus.Margin = new System.Windows.Forms.Padding(2);
             this.txtServerStatus.Name = "txtServerStatus";
             this.txtServerStatus.Size = new System.Drawing.Size(230, 20);
             this.txtServerStatus.TabIndex = 6;
@@ -106,7 +106,7 @@
             // btnDisconnect
             // 
             this.btnDisconnect.Location = new System.Drawing.Point(269, 12);
-            this.btnDisconnect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDisconnect.Margin = new System.Windows.Forms.Padding(2);
             this.btnDisconnect.Name = "btnDisconnect";
             this.btnDisconnect.Size = new System.Drawing.Size(76, 33);
             this.btnDisconnect.TabIndex = 5;
@@ -116,7 +116,7 @@
             // btnConnect
             // 
             this.btnConnect.Location = new System.Drawing.Point(208, 12);
-            this.btnConnect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnConnect.Margin = new System.Windows.Forms.Padding(2);
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(56, 33);
             this.btnConnect.TabIndex = 4;
@@ -126,7 +126,7 @@
             // txtPort
             // 
             this.txtPort.Location = new System.Drawing.Point(146, 18);
-            this.txtPort.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPort.Margin = new System.Windows.Forms.Padding(2);
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(60, 20);
             this.txtPort.TabIndex = 3;
@@ -144,7 +144,7 @@
             // txtIP
             // 
             this.txtIP.Location = new System.Drawing.Point(26, 17);
-            this.txtIP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtIP.Margin = new System.Windows.Forms.Padding(2);
             this.txtIP.Name = "txtIP";
             this.txtIP.Size = new System.Drawing.Size(86, 20);
             this.txtIP.TabIndex = 1;
@@ -168,7 +168,7 @@
             this.ngGraph.TabIndex = 2;
             this.ngGraph.Text = "nodeGraph1";
             // 
-            // Form1
+            // frmApplication
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -176,9 +176,10 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.ngGraph);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "frmApplication";
             this.Text = "Text Adventure";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
